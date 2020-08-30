@@ -10,4 +10,3 @@ def cropper(start,end,file):
         outputPdf.write(ostream)
         start+=1
     ostream.close()
-cropper(1,1,"a.pdf")
